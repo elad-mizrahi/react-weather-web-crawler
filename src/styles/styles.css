@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+#app {
+  font: 14px 'Halvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  min-width: 600px;
+  max-width: 850px;
+  min-height: 800px;
+  margin: 0  auto 20px;
+  display: flex;
+  justify-content: center;
+  font-family: monospace, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.searchInputContainer{
+  margin-top: 100px;
+  width:600px;
+}
+
+
+a.active {
+  color: orange;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-content: stretch;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+.locationContainer {
+  margin: 5px auto;
+  background-origin: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+}
+
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: gray;
+  background-color: gray;
+  background-image: linear-gradient(transparent 10%, rgba(255, 255, 255, .5) 50%);
+  background-size: 50px 80px;
+}
